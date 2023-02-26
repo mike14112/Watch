@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0 auto ;
+}
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    font-size: 228px;
+    color: white;
+    font-weight: bolder;
+    height: 49rem;
+}
+
+@media screen and (max-width:968px)  { 
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        font-size: 200px;
+    }
+}
