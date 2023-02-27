@@ -3,7 +3,9 @@
     margin: 0 auto ;
 }
 
-
+body{
+    overflow: hidden;
+}
 .main-container{
     display: flex;
     align-items: center;
@@ -14,9 +16,14 @@
 }
 
 @media screen and (max-width:968px)  { 
+
+    body{
+        overflow: hidden;
+    }
     .main-container{
         display: flex;
         flex-direction: column;
         font-size: 200px;
     }
+
 }
